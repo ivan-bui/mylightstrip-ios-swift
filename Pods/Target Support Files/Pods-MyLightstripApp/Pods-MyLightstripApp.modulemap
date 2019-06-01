@@ -1,0 +1,6 @@
+framework module Pods_MyLightstripApp {
+  umbrella header "Pods-MyLightstripApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

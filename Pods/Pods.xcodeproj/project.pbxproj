@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01789776F4BD8CBEAD7C794C18D1C867 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0263A3DEDB216DBF5D005F6B91EB2B31 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0C41E98CC933B06B3D78A7D19F7F92 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DD2A6AA39CC9E7CDCC51F5721CA14A /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDB858CA4C3BCD8B98F238C0D16B713 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F235AE0AC9490CB7455459618A39006 /* AFHTTPSessionManager.m */; };
+		196A351699A3B8F788AF02B03EA76EAD /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A449F90C09E365E7C29B0CDBA966CDDD /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E2F48E4143A5E2601BE8A45B9EA837B /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD22DA96EF35AE12FE5BF3B389A119C /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229D64C00A6184D793065D276A0635BE /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F869488402477118D1EA525933FCB5D /* ChromaColorPicker.swift */; };
+		25AE2D0241BAF3B10DE3A3A6E90C823D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8221D421C62FC08D506F6EDA0516AF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C61F98F482CDC5E278918AB2C74D049 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE689969E86BB8F6524A9A9BF136691 /* ColorModeToggleButton.swift */; };
+		2CA9E903CFD70C1104E13E70E9CE9663 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30256FBF01ED889D75DAF5F15EE3DFE9 /* AFAutoPurgingImageCache.m */; };
+		3C04F222EB108D45ED31CEACCC7CB2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767A5CF3F7D77115CF5F22079B74657F /* Foundation.framework */; };
+		410E23282CD10ED3CBE39C7A00B5617C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 372F54D96377B8225F65A385650B16EB /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44902669CF80C03D61C8EAAB916A3A58 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 975EAC1D9CBE2152639C97471EDCD61E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3A1A4B189739870BCDD608C8B3104C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 736D4C13E49EB5B90B0DA9EA4EA8B679 /* AFNetworkReachabilityManager.m */; };
+		4B4011C316D0C3855A646C4C3FDCB511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767A5CF3F7D77115CF5F22079B74657F /* Foundation.framework */; };
+		5024587EFCC5774ACBC5931FE6F2AEA0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B5037C8D0E34B1111D8C0714B4E45D /* Security.framework */; };
+		571CF1A348E504D5C7668FFE21378C60 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64E20913588EBE0ED0E80AFCD91179 /* UIActivityIndicatorView+AFNetworking.m */; };
+		57B2C5E32E52CA1E1DAE5063C881B630 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D9798EDFBDD6C03B0402009B26A2 /* UIColor+Utilities.swift */; };
+		59F084A25F1C5AF631749FE3EAEF618C /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FE2474497E6C874D02ACF2035A2D63 /* ChromaHandle.swift */; };
+		60C34BFFB71576AA538033B11905BE61 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D3AF22062C1BB1109FA23304133F83 /* AFNetworking-dummy.m */; };
+		61F7EDDEEF5DC7867CD4E8EB86009D1B /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8685ED7EE7F96C8189EA1793D3067D /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65896F25518F5D0D140DF9D0C476E776 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7214062C4E8CF8EED32455F021A1C859 /* ChromaAddButton.swift */; };
+		675C1CA4B7B0B9B720562052957A8690 /* Pods-MyLightstripApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9317E56DA118E984AE55E5123BA5C4 /* Pods-MyLightstripApp-dummy.m */; };
+		6F9CFDF197C2758F2C2FEA6BDBC7FD94 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BA6F518DDE13881D4FC53239293D90 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72826FE6499F1E4C1F3095698E64A8E0 /* Pods-MyLightstripApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE352019A790171550A13C3638E569B /* Pods-MyLightstripApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E53A2EE33763AF99761C518C04456B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A400B23FF37FE2ECEEBA4E11FE083FD7 /* SystemConfiguration.framework */; };
+		793E3A94584A2270ECE4DE69233C8859 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 142317473DA2B48CF32DE1BF10CFB185 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C600F7CCE5D54EF1827FA22BB0EB397 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE31930500766E849BDC2C38D7B2E59 /* AFImageDownloader.m */; };
+		875260C8662883809B2E5F08EC513B6B /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 667AB095B246BC215616043551E407F7 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87D0213B41931338BC64E286C9A2BE6E /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 564451AD003C9920C0CFA2B15A949C94 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899E21F89CC39879A7C610D8788171E4 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C57E2366D330A013D0552D6CC96340 /* UIRefreshControl+AFNetworking.m */; };
+		8F08647218A7DF5146BD270E804EA449 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BA32951AAF34E359EE64434CD06E3 /* UIImageView+AFNetworking.m */; };
+		965AF7183D1BDEDB900713B878681195 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B48023F26A568820E717654974E3CD1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C39A4D6D067B350ED158160EFE50572 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 28775FACBC33E3086194990335AEA0D3 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CA46CD3F471A9D520D49421A1383F7E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CF14145827556BC1EDAC5382C4B53B98 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DA7E840F633AD16243BD7B8A71B2BA6 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7EB6CA814A55B1A6A2CFC4BF5FCAEF /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDE77B696FFC930BA945922441452D8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7505BFB000B747151BE78FA318E4E2 /* UIWebView+AFNetworking.m */; };
+		A5E0ABBAC7545C67CAA668233F5CED73 /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C24561F95A602C0D80A9743D93C5257 /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83AA95AEBB8D8EEB114862B55CA125C /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EF3A35BFBFC5530980540430319B8 /* ChromaShadeSlider.swift */; };
+		A8B32E80B45EF0BEA1B9A1326DFEB888 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC279442FEEC476487D8E60475CE978 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99724BD3ED85F509E8AC4C5250E7A95 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8484FD77293DF663B764901296AF76 /* AFURLResponseSerialization.m */; };
+		AE998EA84082CF30E1151898900B73B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21531557EAD3F7276D196B4EC91EC015 /* CoreGraphics.framework */; };
+		B752427C90EF32A6A79616D8FC9D785B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F9595F34AC08DBB0AF4AE3E5A7EFE8 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0F866ED498D61855E4C7290C7821B2 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE8776FD9D57D5192D7C6E220A3D988 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0435FFFF79EF6BE9D41947A93B0B7BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767A5CF3F7D77115CF5F22079B74657F /* Foundation.framework */; };
+		C55BD92F718E248DC8D6390A63FBAC7C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4BDD5CA254D36949593A49AB7970E5 /* AFSecurityPolicy.m */; };
+		DD917315591BA3B2A2095DCCF5DF65A5 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAEE52FC1F42500B43D9EF3FFD970E /* ChromaColorPicker-dummy.m */; };
+		DE3755BCF32344AA9325DE3EAA80A86E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B9F85617AC6D786D7476EE647EA0AB /* MobileCoreServices.framework */; };
+		E3A1159A2FB0FD477E88468396827E61 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA4DB65C57FECCB3B38567E6B578B0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D293A306D737CBC303AFC315DC02DC /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20C20BE6FD146F219CC9907404E2CD /* AFURLSessionManager.m */; };
+		E937051442CE0D2904DEDE66DAC4728D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD506919B58657004A73D2DE95E9E3DF /* AFNetworkActivityIndicatorManager.m */; };
+		F07554E685065B782293B60BC385ABC6 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 353704E02A2FCA171EEE0E9A4DB12658 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3DB9F92E3EF70317CECDB473327E829 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7906D2C65398BFF7E4A0393BEC7F0857 /* UIProgressView+AFNetworking.m */; };
+		FA0E641F98EC8FB186BCE300187C0700 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A302FD3FBB44BCEC2A85E44A6EA5A0 /* UIButton+AFNetworking.m */; };
+		FC82D5E9C0BE4966AD73FC75C5A50AF9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843D8F238548318136329D3D1AB6D4B /* AFURLRequestSerialization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5346B55C12190ED45BE035265D10AEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE33B6750794D443498A98ED3243676B;
+			remoteInfo = AFNetworking;
+		};
+		CAF3AB526CFFE55740CB92C40BF72258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A19B12D5CF76213BB2A56B9820243F;
+			remoteInfo = ChromaColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0263A3DEDB216DBF5D005F6B91EB2B31 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0C8685ED7EE7F96C8189EA1793D3067D /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		142317473DA2B48CF32DE1BF10CFB185 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		1843D8F238548318136329D3D1AB6D4B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1F235AE0AC9490CB7455459618A39006 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1FF7A0C93E374694A1C19015CB3C69C4 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		21531557EAD3F7276D196B4EC91EC015 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		27F885A4D708B2CC4C1B3736694B6C34 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		28775FACBC33E3086194990335AEA0D3 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		30256FBF01ED889D75DAF5F15EE3DFE9 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		30A302FD3FBB44BCEC2A85E44A6EA5A0 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		353704E02A2FCA171EEE0E9A4DB12658 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		372F54D96377B8225F65A385650B16EB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3841ED8E2ADB9113313914E9BFB170A6 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		4C8484FD77293DF663B764901296AF76 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4F345881AB6504DE8BEE8CE92D5AF1A4 /* Pods-MyLightstripApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLightstripApp-Info.plist"; sourceTree = "<group>"; };
+		564451AD003C9920C0CFA2B15A949C94 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5C6F72FCD4909353A07D2E28D9F139B7 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5CD22DA96EF35AE12FE5BF3B389A119C /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
+		5EE0BF3A00BAA33FDD49379A5E5FEF39 /* Pods-MyLightstripApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLightstripApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE31930500766E849BDC2C38D7B2E59 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		60B5037C8D0E34B1111D8C0714B4E45D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		667AB095B246BC215616043551E407F7 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		69D3AF22062C1BB1109FA23304133F83 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		6CE8776FD9D57D5192D7C6E220A3D988 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		6F655985B6E02A3DEB17F40058100FA0 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		7214062C4E8CF8EED32455F021A1C859 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
+		736D4C13E49EB5B90B0DA9EA4EA8B679 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		767A5CF3F7D77115CF5F22079B74657F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76DD2A6AA39CC9E7CDCC51F5721CA14A /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		78CAEE52FC1F42500B43D9EF3FFD970E /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		7906D2C65398BFF7E4A0393BEC7F0857 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		7E7505BFB000B747151BE78FA318E4E2 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		814BA32951AAF34E359EE64434CD06E3 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		81F9595F34AC08DBB0AF4AE3E5A7EFE8 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		8352D25F8069DEF9BF501955F5BB3BAC /* Pods-MyLightstripApp.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLightstripApp.development.xcconfig"; sourceTree = "<group>"; };
+		84B2D9798EDFBDD6C03B0402009B26A2 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		8B48023F26A568820E717654974E3CD1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8C24561F95A602C0D80A9743D93C5257 /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		8D2EF3A35BFBFC5530980540430319B8 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		8D95C33234E7510138C25358BEC5DC37 /* Pods-MyLightstripApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyLightstripApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F7EB6CA814A55B1A6A2CFC4BF5FCAEF /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		975EAC1D9CBE2152639C97471EDCD61E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		97BA6F518DDE13881D4FC53239293D90 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		98510A9D0ECDD369ED69598E9BEBF68E /* ChromaColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChromaColorPicker-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F869488402477118D1EA525933FCB5D /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
+		9FE689969E86BB8F6524A9A9BF136691 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		A400B23FF37FE2ECEEBA4E11FE083FD7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A449F90C09E365E7C29B0CDBA966CDDD /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		A4C57E2366D330A013D0552D6CC96340 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		ABE352019A790171550A13C3638E569B /* Pods-MyLightstripApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLightstripApp-umbrella.h"; sourceTree = "<group>"; };
+		ACF8F239757D6BA041BAA3ABD028C645 /* Pods-MyLightstripApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyLightstripApp.release.xcconfig"; sourceTree = "<group>"; };
+		B53FCA77088E4E102AAC1BA55BEEA687 /* Pods-MyLightstripApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLightstripApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5F4FE99E1A4D85CA11DB115A5ECA469 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB64E20913588EBE0ED0E80AFCD91179 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		BB8221D421C62FC08D506F6EDA0516AF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BD506919B58657004A73D2DE95E9E3DF /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		C2FE2474497E6C874D02ACF2035A2D63 /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		CF14145827556BC1EDAC5382C4B53B98 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		D1B9F85617AC6D786D7476EE647EA0AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D3A15382DFC76528F8801910D0325FAD /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		D7F39342D16B75A166EB44B818E81820 /* Pods-MyLightstripApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLightstripApp.modulemap"; sourceTree = "<group>"; };
+		D9DA4DB65C57FECCB3B38567E6B578B0 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		DA3092AF1CEDF8F1C2AE2823E14F3A28 /* Pods_MyLightstripApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyLightstripApp.framework; path = "Pods-MyLightstripApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC279442FEEC476487D8E60475CE978 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E00DC64010AE829A4F0F89F23130C2A2 /* Pods-MyLightstripApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLightstripApp-frameworks.sh"; sourceTree = "<group>"; };
+		E8239CDD4B4C34237B625752BCE87A93 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9317E56DA118E984AE55E5123BA5C4 /* Pods-MyLightstripApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyLightstripApp-dummy.m"; sourceTree = "<group>"; };
+		EF20C20BE6FD146F219CC9907404E2CD /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		F871E8858822F7CE9209AC7D84D5E1A2 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		FB4BDD5CA254D36949593A49AB7970E5 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F65D35EEA2D175AB5C1F0CD08BC414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE998EA84082CF30E1151898900B73B9 /* CoreGraphics.framework in Frameworks */,
+				4B4011C316D0C3855A646C4C3FDCB511 /* Foundation.framework in Frameworks */,
+				DE3755BCF32344AA9325DE3EAA80A86E /* MobileCoreServices.framework in Frameworks */,
+				5024587EFCC5774ACBC5931FE6F2AEA0 /* Security.framework in Frameworks */,
+				72E53A2EE33763AF99761C518C04456B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FE51508A70915BE42C868FEBAE67CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C04F222EB108D45ED31CEACCC7CB2E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FB04ADCD5C6FA4549851B6496C89BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0435FFFF79EF6BE9D41947A93B0B7BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4E8BFF00C96848C935ED4884F83FD8 /* Pods-MyLightstripApp */ = {
+			isa = PBXGroup;
+			children = (
+				D7F39342D16B75A166EB44B818E81820 /* Pods-MyLightstripApp.modulemap */,
+				8D95C33234E7510138C25358BEC5DC37 /* Pods-MyLightstripApp-acknowledgements.markdown */,
+				B53FCA77088E4E102AAC1BA55BEEA687 /* Pods-MyLightstripApp-acknowledgements.plist */,
+				ED9317E56DA118E984AE55E5123BA5C4 /* Pods-MyLightstripApp-dummy.m */,
+				E00DC64010AE829A4F0F89F23130C2A2 /* Pods-MyLightstripApp-frameworks.sh */,
+				4F345881AB6504DE8BEE8CE92D5AF1A4 /* Pods-MyLightstripApp-Info.plist */,
+				ABE352019A790171550A13C3638E569B /* Pods-MyLightstripApp-umbrella.h */,
+				5EE0BF3A00BAA33FDD49379A5E5FEF39 /* Pods-MyLightstripApp.debug.xcconfig */,
+				8352D25F8069DEF9BF501955F5BB3BAC /* Pods-MyLightstripApp.development.xcconfig */,
+				ACF8F239757D6BA041BAA3ABD028C645 /* Pods-MyLightstripApp.release.xcconfig */,
+			);
+			name = "Pods-MyLightstripApp";
+			path = "Target Support Files/Pods-MyLightstripApp";
+			sourceTree = "<group>";
+		};
+		25916A33F7A1BB43430CE76A306CD615 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				28775FACBC33E3086194990335AEA0D3 /* AFCompatibilityMacros.h */,
+				0263A3DEDB216DBF5D005F6B91EB2B31 /* AFHTTPSessionManager.h */,
+				1F235AE0AC9490CB7455459618A39006 /* AFHTTPSessionManager.m */,
+				DAC279442FEEC476487D8E60475CE978 /* AFURLSessionManager.h */,
+				EF20C20BE6FD146F219CC9907404E2CD /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		28676572AA61039123A415D06CEF5D64 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E8BFF00C96848C935ED4884F83FD8 /* Pods-MyLightstripApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29F8AEBDA2AC9CFD0CA5F6CD3F08E672 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3A15382DFC76528F8801910D0325FAD /* AFNetworking.modulemap */,
+				F871E8858822F7CE9209AC7D84D5E1A2 /* AFNetworking.xcconfig */,
+				69D3AF22062C1BB1109FA23304133F83 /* AFNetworking-dummy.m */,
+				1FF7A0C93E374694A1C19015CB3C69C4 /* AFNetworking-Info.plist */,
+				5C6F72FCD4909353A07D2E28D9F139B7 /* AFNetworking-prefix.pch */,
+				667AB095B246BC215616043551E407F7 /* AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		4220E800E34F92869C73CF991B4E87E2 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				353704E02A2FCA171EEE0E9A4DB12658 /* AFURLRequestSerialization.h */,
+				1843D8F238548318136329D3D1AB6D4B /* AFURLRequestSerialization.m */,
+				BB8221D421C62FC08D506F6EDA0516AF /* AFURLResponseSerialization.h */,
+				4C8484FD77293DF663B764901296AF76 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		5F3C5ECD21D6D632E9438379E7B7A66C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8B48023F26A568820E717654974E3CD1 /* AFNetworkReachabilityManager.h */,
+				736D4C13E49EB5B90B0DA9EA4EA8B679 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		639753554698A919C95C6F4C73B58482 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C8685ED7EE7F96C8189EA1793D3067D /* AFAutoPurgingImageCache.h */,
+				30256FBF01ED889D75DAF5F15EE3DFE9 /* AFAutoPurgingImageCache.m */,
+				A449F90C09E365E7C29B0CDBA966CDDD /* AFImageDownloader.h */,
+				5EE31930500766E849BDC2C38D7B2E59 /* AFImageDownloader.m */,
+				975EAC1D9CBE2152639C97471EDCD61E /* AFNetworkActivityIndicatorManager.h */,
+				BD506919B58657004A73D2DE95E9E3DF /* AFNetworkActivityIndicatorManager.m */,
+				81F9595F34AC08DBB0AF4AE3E5A7EFE8 /* UIActivityIndicatorView+AFNetworking.h */,
+				BB64E20913588EBE0ED0E80AFCD91179 /* UIActivityIndicatorView+AFNetworking.m */,
+				D9DA4DB65C57FECCB3B38567E6B578B0 /* UIButton+AFNetworking.h */,
+				30A302FD3FBB44BCEC2A85E44A6EA5A0 /* UIButton+AFNetworking.m */,
+				8F7EB6CA814A55B1A6A2CFC4BF5FCAEF /* UIImage+AFNetworking.h */,
+				564451AD003C9920C0CFA2B15A949C94 /* UIImageView+AFNetworking.h */,
+				814BA32951AAF34E359EE64434CD06E3 /* UIImageView+AFNetworking.m */,
+				76DD2A6AA39CC9E7CDCC51F5721CA14A /* UIKit+AFNetworking.h */,
+				97BA6F518DDE13881D4FC53239293D90 /* UIProgressView+AFNetworking.h */,
+				7906D2C65398BFF7E4A0393BEC7F0857 /* UIProgressView+AFNetworking.m */,
+				142317473DA2B48CF32DE1BF10CFB185 /* UIRefreshControl+AFNetworking.h */,
+				A4C57E2366D330A013D0552D6CC96340 /* UIRefreshControl+AFNetworking.m */,
+				6CE8776FD9D57D5192D7C6E220A3D988 /* UIWebView+AFNetworking.h */,
+				7E7505BFB000B747151BE78FA318E4E2 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		68D7246561246FE396C9D8BBDD714616 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CF14145827556BC1EDAC5382C4B53B98 /* AFNetworking.h */,
+				25916A33F7A1BB43430CE76A306CD615 /* NSURLSession */,
+				5F3C5ECD21D6D632E9438379E7B7A66C /* Reachability */,
+				F8A292A59788456F3226973668DA14AA /* Security */,
+				4220E800E34F92869C73CF991B4E87E2 /* Serialization */,
+				29F8AEBDA2AC9CFD0CA5F6CD3F08E672 /* Support Files */,
+				639753554698A919C95C6F4C73B58482 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		96AFF46DC8B041193381B63102345950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8239CDD4B4C34237B625752BCE87A93 /* AFNetworking.framework */,
+				B5F4FE99E1A4D85CA11DB115A5ECA469 /* ChromaColorPicker.framework */,
+				DA3092AF1CEDF8F1C2AE2823E14F3A28 /* Pods_MyLightstripApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62086BC2E6826691E5F333B4726C9CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F885A4D708B2CC4C1B3736694B6C34 /* ChromaColorPicker.modulemap */,
+				3841ED8E2ADB9113313914E9BFB170A6 /* ChromaColorPicker.xcconfig */,
+				78CAEE52FC1F42500B43D9EF3FFD970E /* ChromaColorPicker-dummy.m */,
+				98510A9D0ECDD369ED69598E9BEBF68E /* ChromaColorPicker-Info.plist */,
+				6F655985B6E02A3DEB17F40058100FA0 /* ChromaColorPicker-prefix.pch */,
+				8C24561F95A602C0D80A9743D93C5257 /* ChromaColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D879BD62033B59C2CA20DE4E342D7D96 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				D59BF97E2D97BE6863CC54E1A0BB6558 /* Pods */,
+				96AFF46DC8B041193381B63102345950 /* Products */,
+				28676572AA61039123A415D06CEF5D64 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D59BF97E2D97BE6863CC54E1A0BB6558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D7246561246FE396C9D8BBDD714616 /* AFNetworking */,
+				D6F6ED441B6D0A13D92C5A6182A2620C /* ChromaColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F6ED441B6D0A13D92C5A6182A2620C /* ChromaColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7214062C4E8CF8EED32455F021A1C859 /* ChromaAddButton.swift */,
+				5CD22DA96EF35AE12FE5BF3B389A119C /* ChromaColorPicker.h */,
+				9F869488402477118D1EA525933FCB5D /* ChromaColorPicker.swift */,
+				C2FE2474497E6C874D02ACF2035A2D63 /* ChromaHandle.swift */,
+				8D2EF3A35BFBFC5530980540430319B8 /* ChromaShadeSlider.swift */,
+				9FE689969E86BB8F6524A9A9BF136691 /* ColorModeToggleButton.swift */,
+				84B2D9798EDFBDD6C03B0402009B26A2 /* UIColor+Utilities.swift */,
+				B62086BC2E6826691E5F333B4726C9CE /* Support Files */,
+			);
+			name = ChromaColorPicker;
+			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		D879BD62033B59C2CA20DE4E342D7D96 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				21531557EAD3F7276D196B4EC91EC015 /* CoreGraphics.framework */,
+				767A5CF3F7D77115CF5F22079B74657F /* Foundation.framework */,
+				D1B9F85617AC6D786D7476EE647EA0AB /* MobileCoreServices.framework */,
+				60B5037C8D0E34B1111D8C0714B4E45D /* Security.framework */,
+				A400B23FF37FE2ECEEBA4E11FE083FD7 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F8A292A59788456F3226973668DA14AA /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				372F54D96377B8225F65A385650B16EB /* AFSecurityPolicy.h */,
+				FB4BDD5CA254D36949593A49AB7970E5 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00E88B14F2780C3AFF83785630D80931 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E0ABBAC7545C67CAA668233F5CED73 /* ChromaColorPicker-umbrella.h in Headers */,
+				1E2F48E4143A5E2601BE8A45B9EA837B /* ChromaColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B988E9E9960A5D9D46BEF40205D3F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F7EDDEEF5DC7867CD4E8EB86009D1B /* AFAutoPurgingImageCache.h in Headers */,
+				9C39A4D6D067B350ED158160EFE50572 /* AFCompatibilityMacros.h in Headers */,
+				01789776F4BD8CBEAD7C794C18D1C867 /* AFHTTPSessionManager.h in Headers */,
+				196A351699A3B8F788AF02B03EA76EAD /* AFImageDownloader.h in Headers */,
+				44902669CF80C03D61C8EAAB916A3A58 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				875260C8662883809B2E5F08EC513B6B /* AFNetworking-umbrella.h in Headers */,
+				9CA46CD3F471A9D520D49421A1383F7E /* AFNetworking.h in Headers */,
+				965AF7183D1BDEDB900713B878681195 /* AFNetworkReachabilityManager.h in Headers */,
+				410E23282CD10ED3CBE39C7A00B5617C /* AFSecurityPolicy.h in Headers */,
+				F07554E685065B782293B60BC385ABC6 /* AFURLRequestSerialization.h in Headers */,
+				25AE2D0241BAF3B10DE3A3A6E90C823D /* AFURLResponseSerialization.h in Headers */,
+				A8B32E80B45EF0BEA1B9A1326DFEB888 /* AFURLSessionManager.h in Headers */,
+				B752427C90EF32A6A79616D8FC9D785B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				E3A1159A2FB0FD477E88468396827E61 /* UIButton+AFNetworking.h in Headers */,
+				9DA7E840F633AD16243BD7B8A71B2BA6 /* UIImage+AFNetworking.h in Headers */,
+				87D0213B41931338BC64E286C9A2BE6E /* UIImageView+AFNetworking.h in Headers */,
+				0C0C41E98CC933B06B3D78A7D19F7F92 /* UIKit+AFNetworking.h in Headers */,
+				6F9CFDF197C2758F2C2FEA6BDBC7FD94 /* UIProgressView+AFNetworking.h in Headers */,
+				793E3A94584A2270ECE4DE69233C8859 /* UIRefreshControl+AFNetworking.h in Headers */,
+				BD0F866ED498D61855E4C7290C7821B2 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08BD3EE2CF6281F21342247931D26DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72826FE6499F1E4C1F3095698E64A8E0 /* Pods-MyLightstripApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7A19B12D5CF76213BB2A56B9820243F /* ChromaColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67604ED06D41766BB8F1C95EE789BFAA /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildPhases = (
+				00E88B14F2780C3AFF83785630D80931 /* Headers */,
+				764441ADFDE12CD771ED5C25F18BF82E /* Sources */,
+				C0FE51508A70915BE42C868FEBAE67CC /* Frameworks */,
+				800670B213D02B853CBDD167BE170D11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaColorPicker;
+			productName = ChromaColorPicker;
+			productReference = B5F4FE99E1A4D85CA11DB115A5ECA469 /* ChromaColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE33B6750794D443498A98ED3243676B /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD77C125B54AD28DCE952B4370CF197 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				20B988E9E9960A5D9D46BEF40205D3F6 /* Headers */,
+				AF91F738F91FC5CED8AF7C45BA98E1EB /* Sources */,
+				A3F65D35EEA2D175AB5C1F0CD08BC414 /* Frameworks */,
+				99BE44D67D90A902C326BBB788FDB573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = E8239CDD4B4C34237B625752BCE87A93 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECB0AA9BA5AF9EB8FA46EDD8747A53EF /* Pods-MyLightstripApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21144DA0EDB61EF41A57EFE10F0CE6DF /* Build configuration list for PBXNativeTarget "Pods-MyLightstripApp" */;
+			buildPhases = (
+				E08BD3EE2CF6281F21342247931D26DB /* Headers */,
+				2196382AFC8556FFD6BAA1054CA36F30 /* Sources */,
+				E4FB04ADCD5C6FA4549851B6496C89BB /* Frameworks */,
+				777099A81E1C8F261933B777511D8CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DC0CFC6B41C665BBAEF1B778370F24 /* PBXTargetDependency */,
+				74816B2B456D8AD56038F2CD2ED3C6DF /* PBXTargetDependency */,
+			);
+			name = "Pods-MyLightstripApp";
+			productName = "Pods-MyLightstripApp";
+			productReference = DA3092AF1CEDF8F1C2AE2823E14F3A28 /* Pods_MyLightstripApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 96AFF46DC8B041193381B63102345950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE33B6750794D443498A98ED3243676B /* AFNetworking */,
+				A7A19B12D5CF76213BB2A56B9820243F /* ChromaColorPicker */,
+				ECB0AA9BA5AF9EB8FA46EDD8747A53EF /* Pods-MyLightstripApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777099A81E1C8F261933B777511D8CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800670B213D02B853CBDD167BE170D11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BE44D67D90A902C326BBB788FDB573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2196382AFC8556FFD6BAA1054CA36F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675C1CA4B7B0B9B720562052957A8690 /* Pods-MyLightstripApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764441ADFDE12CD771ED5C25F18BF82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65896F25518F5D0D140DF9D0C476E776 /* ChromaAddButton.swift in Sources */,
+				DD917315591BA3B2A2095DCCF5DF65A5 /* ChromaColorPicker-dummy.m in Sources */,
+				229D64C00A6184D793065D276A0635BE /* ChromaColorPicker.swift in Sources */,
+				59F084A25F1C5AF631749FE3EAEF618C /* ChromaHandle.swift in Sources */,
+				A83AA95AEBB8D8EEB114862B55CA125C /* ChromaShadeSlider.swift in Sources */,
+				2C61F98F482CDC5E278918AB2C74D049 /* ColorModeToggleButton.swift in Sources */,
+				57B2C5E32E52CA1E1DAE5063C881B630 /* UIColor+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF91F738F91FC5CED8AF7C45BA98E1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA9E903CFD70C1104E13E70E9CE9663 /* AFAutoPurgingImageCache.m in Sources */,
+				0DDB858CA4C3BCD8B98F238C0D16B713 /* AFHTTPSessionManager.m in Sources */,
+				7C600F7CCE5D54EF1827FA22BB0EB397 /* AFImageDownloader.m in Sources */,
+				E937051442CE0D2904DEDE66DAC4728D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				60C34BFFB71576AA538033B11905BE61 /* AFNetworking-dummy.m in Sources */,
+				4B3A1A4B189739870BCDD608C8B3104C /* AFNetworkReachabilityManager.m in Sources */,
+				C55BD92F718E248DC8D6390A63FBAC7C /* AFSecurityPolicy.m in Sources */,
+				FC82D5E9C0BE4966AD73FC75C5A50AF9 /* AFURLRequestSerialization.m in Sources */,
+				A99724BD3ED85F509E8AC4C5250E7A95 /* AFURLResponseSerialization.m in Sources */,
+				E5D293A306D737CBC303AFC315DC02DC /* AFURLSessionManager.m in Sources */,
+				571CF1A348E504D5C7668FFE21378C60 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				FA0E641F98EC8FB186BCE300187C0700 /* UIButton+AFNetworking.m in Sources */,
+				8F08647218A7DF5146BD270E804EA449 /* UIImageView+AFNetworking.m in Sources */,
+				F3DB9F92E3EF70317CECDB473327E829 /* UIProgressView+AFNetworking.m in Sources */,
+				899E21F89CC39879A7C610D8788171E4 /* UIRefreshControl+AFNetworking.m in Sources */,
+				9EDE77B696FFC930BA945922441452D8 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74816B2B456D8AD56038F2CD2ED3C6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChromaColorPicker;
+			target = A7A19B12D5CF76213BB2A56B9820243F /* ChromaColorPicker */;
+			targetProxy = CAF3AB526CFFE55740CB92C40BF72258 /* PBXContainerItemProxy */;
+		};
+		A3DC0CFC6B41C665BBAEF1B778370F24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CE33B6750794D443498A98ED3243676B /* AFNetworking */;
+			targetProxy = 5346B55C12190ED45BE035265D10AEA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01DB942E8220218E0F544FCE0FDC2F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F871E8858822F7CE9209AC7D84D5E1A2 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		07365E0F6E22D93BEFF9200ED1F24DCF /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3841ED8E2ADB9113313914E9BFB170A6 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Development;
+		};
+		1411A7CD6145B7882B4EE64D0A8F86C2 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F871E8858822F7CE9209AC7D84D5E1A2 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Development;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		284BBAC618712FA283B11CAD3C3A6E53 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8352D25F8069DEF9BF501955F5BB3BAC /* Pods-MyLightstripApp.development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Development;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C75DA9AE79852309383AF24A7E3D972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE0BF3A00BAA33FDD49379A5E5FEF39 /* Pods-MyLightstripApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D225789EB2E630E0E5E1437110A8F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F871E8858822F7CE9209AC7D84D5E1A2 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81DF10C327102F26832AE8CB9FF349F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3841ED8E2ADB9113313914E9BFB170A6 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92304F4883FDCC8EE4ECA7427F6F345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3841ED8E2ADB9113313914E9BFB170A6 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD367D3E6761C9F76B6C09A0CCBAD6B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEVELOPMENT=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Development;
+		};
+		E4A6BBFFE2E10C531938827379057504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF8F239757D6BA041BAA3ABD028C645 /* Pods-MyLightstripApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21144DA0EDB61EF41A57EFE10F0CE6DF /* Build configuration list for PBXNativeTarget "Pods-MyLightstripApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C75DA9AE79852309383AF24A7E3D972 /* Debug */,
+				284BBAC618712FA283B11CAD3C3A6E53 /* Development */,
+				E4A6BBFFE2E10C531938827379057504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				DFD367D3E6761C9F76B6C09A0CCBAD6B /* Development */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67604ED06D41766BB8F1C95EE789BFAA /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DF10C327102F26832AE8CB9FF349F4 /* Debug */,
+				07365E0F6E22D93BEFF9200ED1F24DCF /* Development */,
+				92304F4883FDCC8EE4ECA7427F6F345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD77C125B54AD28DCE952B4370CF197 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D225789EB2E630E0E5E1437110A8F50 /* Debug */,
+				1411A7CD6145B7882B4EE64D0A8F86C2 /* Development */,
+				01DB942E8220218E0F544FCE0FDC2F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

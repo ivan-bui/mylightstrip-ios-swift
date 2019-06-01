@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162F358D228B6F42009088B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F358C228B6F42009088B8 /* AppDelegate.swift */; };
+		162F358F228B6F42009088B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162F358E228B6F42009088B8 /* ViewController.swift */; };
+		162F3592228B6F42009088B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F3590228B6F42009088B8 /* Main.storyboard */; };
+		162F3594228B6F44009088B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162F3593228B6F44009088B8 /* Assets.xcassets */; };
+		162F3597228B6F44009088B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162F3595228B6F44009088B8 /* LaunchScreen.storyboard */; };
+		163551ED228D3D7200747CC6 /* MyLightstripApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 163551EB228D3D7200747CC6 /* MyLightstripApp.xcdatamodeld */; };
+		16355214228E463800747CC6 /* SceneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16355213228E463800747CC6 /* SceneCollectionViewCell.swift */; };
+		16AB40AA2293581400F86B54 /* MyLightstripApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 16AB40A72293581400F86B54 /* MyLightstripApp.sqlite */; };
+		F898E4C7F72E6D2F236C21B7 /* Pods_MyLightstripApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDBB5796F568E72A0F1E20E /* Pods_MyLightstripApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		162F3589228B6F42009088B8 /* MyLightstripApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLightstripApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162F358C228B6F42009088B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		162F358E228B6F42009088B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		162F3591228B6F42009088B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		162F3593228B6F44009088B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162F3596228B6F44009088B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162F3598228B6F44009088B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163551EC228D3D7200747CC6 /* MyLightstripApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLightstripApp.xcdatamodel; sourceTree = "<group>"; };
+		16355213228E463800747CC6 /* SceneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCollectionViewCell.swift; sourceTree = "<group>"; };
+		169AAA91228BDB83000B33B1 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		169AAA94228BDCBB000B33B1 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		169AAA95228BDCD1000B33B1 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		16AB40A72293581400F86B54 /* MyLightstripApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = MyLightstripApp.sqlite; path = ../MyLightstripApp.sqlite; sourceTree = "<group>"; };
+		6C27EB43CB76027D493AFE85 /* Pods-MyLightstripApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLightstripApp.debug.xcconfig"; path = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7920E22AB839D47BA8A47BB1 /* Pods-MyLightstripApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLightstripApp.release.xcconfig"; path = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.release.xcconfig"; sourceTree = "<group>"; };
+		9FDBB5796F568E72A0F1E20E /* Pods_MyLightstripApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLightstripApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F01FF5758CCDC97C642374 /* Pods-MyLightstripApp.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLightstripApp.development.xcconfig"; path = "Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp.development.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162F3586228B6F42009088B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F898E4C7F72E6D2F236C21B7 /* Pods_MyLightstripApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162F3580228B6F42009088B8 = {
+			isa = PBXGroup;
+			children = (
+				162F358B228B6F42009088B8 /* MyLightstripApp */,
+				162F358A228B6F42009088B8 /* Products */,
+				4A51F3C52C48631FF0C497B9 /* Pods */,
+				3A2ECFA1A741A43BBB4ECC4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		162F358A228B6F42009088B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162F3589228B6F42009088B8 /* MyLightstripApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162F358B228B6F42009088B8 /* MyLightstripApp */ = {
+			isa = PBXGroup;
+			children = (
+				16AB40AB2293581F00F86B54 /* Database */,
+				169AAA9C228BF982000B33B1 /* Extensions */,
+				169AAA90228BDB28000B33B1 /* Config */,
+				162F358C228B6F42009088B8 /* AppDelegate.swift */,
+				162F358E228B6F42009088B8 /* ViewController.swift */,
+				163551EB228D3D7200747CC6 /* MyLightstripApp.xcdatamodeld */,
+				162F3590228B6F42009088B8 /* Main.storyboard */,
+				162F3593228B6F44009088B8 /* Assets.xcassets */,
+				162F3595228B6F44009088B8 /* LaunchScreen.storyboard */,
+				162F3598228B6F44009088B8 /* Info.plist */,
+				16355213228E463800747CC6 /* SceneCollectionViewCell.swift */,
+			);
+			path = MyLightstripApp;
+			sourceTree = "<group>";
+		};
+		169AAA90228BDB28000B33B1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				169AAA91228BDB83000B33B1 /* Development.xcconfig */,
+				169AAA94228BDCBB000B33B1 /* Debug.xcconfig */,
+				169AAA95228BDCD1000B33B1 /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		169AAA9C228BF982000B33B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16AB40AB2293581F00F86B54 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				16AB40A72293581400F86B54 /* MyLightstripApp.sqlite */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		3A2ECFA1A741A43BBB4ECC4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDBB5796F568E72A0F1E20E /* Pods_MyLightstripApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A51F3C52C48631FF0C497B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C27EB43CB76027D493AFE85 /* Pods-MyLightstripApp.debug.xcconfig */,
+				7920E22AB839D47BA8A47BB1 /* Pods-MyLightstripApp.release.xcconfig */,
+				A7F01FF5758CCDC97C642374 /* Pods-MyLightstripApp.development.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162F3588228B6F42009088B8 /* MyLightstripApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162F359B228B6F44009088B8 /* Build configuration list for PBXNativeTarget "MyLightstripApp" */;
+			buildPhases = (
+				42EC4EB9DBA64CA91167137D /* [CP] Check Pods Manifest.lock */,
+				162F3585228B6F42009088B8 /* Sources */,
+				162F3586228B6F42009088B8 /* Frameworks */,
+				162F3587228B6F42009088B8 /* Resources */,
+				3374EE3987FD18ACDFC85D6A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLightstripApp;
+			productName = MyLightstripApp;
+			productReference = 162F3589228B6F42009088B8 /* MyLightstripApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162F3581228B6F42009088B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ivan Bui";
+				TargetAttributes = {
+					162F3588228B6F42009088B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 162F3584228B6F42009088B8 /* Build configuration list for PBXProject "MyLightstripApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162F3580228B6F42009088B8;
+			productRefGroup = 162F358A228B6F42009088B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162F3588228B6F42009088B8 /* MyLightstripApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162F3587228B6F42009088B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F3597228B6F44009088B8 /* LaunchScreen.storyboard in Resources */,
+				162F3594228B6F44009088B8 /* Assets.xcassets in Resources */,
+				162F3592228B6F42009088B8 /* Main.storyboard in Resources */,
+				16AB40AA2293581400F86B54 /* MyLightstripApp.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3374EE3987FD18ACDFC85D6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyLightstripApp/Pods-MyLightstripApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EC4EB9DBA64CA91167137D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLightstripApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162F3585228B6F42009088B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162F358F228B6F42009088B8 /* ViewController.swift in Sources */,
+				16355214228E463800747CC6 /* SceneCollectionViewCell.swift in Sources */,
+				162F358D228B6F42009088B8 /* AppDelegate.swift in Sources */,
+				163551ED228D3D7200747CC6 /* MyLightstripApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		162F3590228B6F42009088B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162F3591228B6F42009088B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		162F3595228B6F44009088B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162F3596228B6F44009088B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162F3599228B6F44009088B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA94228BDCBB000B33B1 /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		162F359A228B6F44009088B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA95228BDCD1000B33B1 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162F359C228B6F44009088B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA94228BDCBB000B33B1 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyLightstripApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ivanbui.MyLightstripApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162F359D228B6F44009088B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA95228BDCD1000B33B1 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyLightstripApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ivanbui.MyLightstripApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		169AAA92228BDBA9000B33B1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA91228BDB83000B33B1 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Development;
+		};
+		169AAA93228BDBA9000B33B1 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169AAA91228BDB83000B33B1 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyLightstripApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ivanbui.MyLightstripApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162F3584228B6F42009088B8 /* Build configuration list for PBXProject "MyLightstripApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F3599228B6F44009088B8 /* Debug */,
+				169AAA92228BDBA9000B33B1 /* Development */,
+				162F359A228B6F44009088B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162F359B228B6F44009088B8 /* Build configuration list for PBXNativeTarget "MyLightstripApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162F359C228B6F44009088B8 /* Debug */,
+				169AAA93228BDBA9000B33B1 /* Development */,
+				162F359D228B6F44009088B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		163551EB228D3D7200747CC6 /* MyLightstripApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				163551EC228D3D7200747CC6 /* MyLightstripApp.xcdatamodel */,
+			);
+			currentVersion = 163551EC228D3D7200747CC6 /* MyLightstripApp.xcdatamodel */;
+			path = MyLightstripApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 162F3581228B6F42009088B8 /* Project object */;
+}
